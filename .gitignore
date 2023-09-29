@@ -1,2 +1,3 @@
 FlightsAndSearch/node_modules/
 FlightsAndSearch/.env
+FlightsAndSearch/src/config/config.json
