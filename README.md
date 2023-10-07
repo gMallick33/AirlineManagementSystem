@@ -29,7 +29,8 @@ It consists of the following micro-services -
  - Airplane
  - Flight
  - Airport
- - City
+ - City 
+ - 
 
  - A flight belongs to an airplane but one airplane can be used in multiple flights
  - A city has many airports, but one airport belongs to one city
