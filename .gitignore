@@ -1,3 +1,6 @@
 FlightsAndSearch/node_modules/
 FlightsAndSearch/.env
 FlightsAndSearch/src/config/config.json
+AuthService/node_modules
+AuthService/.env
+AuthService/src/config/config.json
