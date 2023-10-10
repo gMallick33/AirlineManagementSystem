@@ -2,6 +2,7 @@
 It consists of the following micro-services - 
 1. FlightsAndSearch
 2. AuthService
+3. BookingService
 
 ## FlightAndSearch
 ### Project Setup

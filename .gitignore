@@ -4,3 +4,6 @@ FlightsAndSearch/src/config/config.json
 AuthService/node_modules
 AuthService/.env
 AuthService/src/config/config.json
+BookingService/node_modules
+BookingService/config/config.json
+BookingService/.env
