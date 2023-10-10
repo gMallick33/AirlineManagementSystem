@@ -11,9 +11,9 @@ const setupAndStartServer = async () => {
     app.use('/api', apiRoutes);
     app.listen(PORT, async () => {
         console.log(`server started at: ${PORT}`);
-        if(process.env.DB_SYNC) {
-            db.sequelize.sync({alter: true});
-        }
+        // if(process.env.DB_SYNC) {
+        //     db.sequelize.sync({alter: true});
+        // }
     })
 }
 
