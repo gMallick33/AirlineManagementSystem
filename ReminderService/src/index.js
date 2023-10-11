@@ -9,12 +9,12 @@ const setupAndStartServer = () => {
 
     app.listen(PORT, async () => {
         console.log(`server started on: ${PORT}`);
-        sendBasicEmail(
-            'support@admin.com',
-            'gyani1@yopmail.com',
-            'This is a testing email',
-            'Hey, how are you, I hope you like our support'
-        );
+        // sendBasicEmail(
+        //     'support@admin.com',
+        //     'gyani1@yopmail.com',
+        //     'This is a testing email',
+        //     'Hey, how are you, I hope you like our support'
+        // );
     });
 }
 

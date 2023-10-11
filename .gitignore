@@ -9,3 +9,4 @@ BookingService/config/config.json
 BookingService/.env
 ReminderService/node_modules
 ReminderService/.env
+ReminderService/src/config/config.json
