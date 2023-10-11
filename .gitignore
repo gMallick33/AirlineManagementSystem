@@ -7,3 +7,5 @@ AuthService/src/config/config.json
 BookingService/node_modules
 BookingService/config/config.json
 BookingService/.env
+ReminderService/node_modules
+ReminderService/.env
