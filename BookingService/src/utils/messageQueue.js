@@ -1,5 +1,4 @@
 const amqplib = require('amqplib');
-const { application } = require('express');
 
 const { MESSAGE_BROKER_URL, EXCHANGE_NAME } = require('../config/serverConfig');
 
@@ -32,7 +31,7 @@ const subscribeMessage = async (channel, service, binding_key) => {
 
 const publishMessage = async (channel, binding_key, message) => {
     try {
-        await channel.assertQueue('REMINDER_SERVICE');
+        await channel.assertQueue('REMINDER_QUEUE');
         await channel.publish(EXCHANGE_NAME, binding_key, Buffer.from(message));
     } catch (error) {
         throw error;
