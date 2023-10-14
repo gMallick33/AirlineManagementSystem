@@ -10,3 +10,4 @@ BookingService/.env
 ReminderService/node_modules
 ReminderService/.env
 ReminderService/src/config/config.json
+API_Gateway/node_modules

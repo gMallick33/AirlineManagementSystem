@@ -7,5 +7,9 @@ const { BookingController } = require('../../controllers/index');
 const bookingController = new BookingController( );
 router.post('/booking', bookingController.create);
 router.post('/publish', bookingController.sendMessageToQueue);
-
+router.get('/info', (req, res) => {
+    return res.json({
+        message: 'getting info on booking service'
+    })
+})
 module.exports = router;
