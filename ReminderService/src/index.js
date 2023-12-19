@@ -24,7 +24,7 @@ const setupAndStartServer = async () => {
     //   "This is a testing email",
     //   "Hey, how are you, I hope you like our support"
     // );
-    // jobs();
+    jobs();
   });
 };
 
