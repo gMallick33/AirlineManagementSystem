@@ -17,6 +17,8 @@ class BookingService {
       const response = await axios.get(getFlightRequestURL);
       const flightData = response.data.data;
       console.log(flightData);
+      console.log(flightData.departureTime);
+      const departureTime = flightData.departureTime;
       let priceOfTheFlight = flightData.price;
       if (data.noOfSeats > flightData.totalSeats) {
         throw new ServiceError(
@@ -45,10 +47,10 @@ class BookingService {
       const channel = await createChannel();
       const payload = {
         data: {
-          subject: "This is a notification from queue",
-          content: "some queue will subscribe this",
+          subject: "Initiated from booking service",
+          content: "For notification ticket",
           recepientEmail: userEmail,
-          notificationTime: "2023-01-01T09:51:00",
+          notificationTime: departureTime,
         },
         service: "CREATE_TICKET",
       };
