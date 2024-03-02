@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "npx nodemon src/index"
+    "start": "npx nodemon src/index",
+    "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
